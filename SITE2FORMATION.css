@@ -1,0 +1,64 @@
+body{
+	background-image: linear-gradient(#F9A5A5,red,#C40C0C,#F9A5A5);
+}
+section{
+	display: inline-flex;
+	margin-left: 20px;	
+}
+article{
+	background-color: white;
+	border: solid #6B0D0D 5px;
+	margin-left: 10px;
+	border-radius: 10px;
+	width: 75%;
+	height: 75%;
+}
+nav ul li a{
+	font-family: Agency FB;
+    text-decoration: none;
+	color: white;
+	width: 100%;
+	font-size: 20px;
+	border-color: black;
+}
+a{
+    text-decoration: none;
+	color: white;
+}
+nav.NAV1 ul li{
+	display: inline-block;
+	word-spacing: 100px;
+	height: 40px;
+	padding: 10px;
+}
+nav ul{
+	border: solid #6B0D0D 5px;
+    list-style-type: none;
+	background-color: #6B0D0D;
+	background-size: 100%;
+}
+nav.NAV2 ul{
+	width: 200px;
+	border-radius: 10px;
+	margin-top: 1px;
+	margin-left: 5px;	
+}
+nav.NAV2 ul li{
+	text-align: left;
+	margin-top: 5px;
+	margin-left: -25px;
+	height: 45px;
+}
+nav ul li:link, nav ul li:visited {
+	display: block;
+}
+nav ul li:hover {
+	background-color: #A91101;
+	border-radius: 10px;
+	background-size: 100%;
+	margin-left: -30px;
+}
+.FOOT{
+	margin-top: 1px;
+	margin-left: 20%;
+}
